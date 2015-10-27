@@ -1,0 +1,3 @@
+jasmin filename - 用來將寫好的jasmin bytecode轉換成.class file
+javap filename - 用來將寫好的.java file轉換成.class file
+javac filename - 用來將轉換好的.class file轉回易懂的.java file

@@ -1,0 +1,25 @@
+
+alumni.cis.nctu.edu.tw %lex lextest.l
+alumni.cis.nctu.edu.tw %yacc yacctest.y
+alumni.cis.nctu.edu.tw %cc y.tab.c -ly -ll
+alumni.cis.nctu.edu.tw %a.out abc.def
+a.out abc.def
+open file.
+call yyparse
+id...1.qqq.
+assign...1.:=.
+eol...1
+num...2.123.
+Use rule 5.
+Use rule 3.
+eol...2
+plus...3
+id...3.sss.
+Use rule 4.
+Use rule 2.
+semi...3
+Use rule 1.
+eol...3
+after call yyparse, res = 0.
+SUCCESS
+alumni.cis.nctu.edu.tw %
